@@ -3,8 +3,8 @@
 <suite name="Basic Test Suite" >
     <test name="Basic Test Group">
         <classes>
-            <class name="org.cb.ta.WDUHomeTest"></class>
-            <class name="org.cb.ta.WDUDataTablesButtonStatesPageTest"></class>
+<!--            <class name="org.cb.ta.WDUHomeTest"></class>-->
+            <class name="org.cb.ta.TestSteps.DropDownPage"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

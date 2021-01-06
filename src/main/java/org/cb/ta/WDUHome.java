@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class WDUHome {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     private final By dataTablesButtonStatesLink = By.xpath("//a[@id='data-table']");
 

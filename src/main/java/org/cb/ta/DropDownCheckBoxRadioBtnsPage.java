@@ -9,6 +9,7 @@ import java.util.List;
 
 public class DropDownCheckBoxRadioBtnsPage {
     private final WebDriver driver;
+
     private final WebElement dropDownMenu;
     private final List<WebElement> checkBoxes;
     private final List<WebElement> radioBtns;

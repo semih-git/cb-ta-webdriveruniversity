@@ -7,7 +7,8 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class WDUDataTablesButtonStatesPage {
-    private WebDriver driver;
+    private final WebDriver driver;
+
     private final WebElement headerElement;
     private final List<WebElement> table1Rows;
 
