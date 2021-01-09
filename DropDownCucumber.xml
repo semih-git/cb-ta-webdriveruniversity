@@ -2,9 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Basic Test Suite" >
     <test name="Basic Test Group">
+        <!--        <packages>-->
+        <!--            <package name="org.cb.ta"></package>-->
+        <!--        </packages>-->
         <classes>
-<!--            <class name="org.cb.ta.WDUHomeTest"></class>-->
-            <class name="org.cb.ta.TestSteps.DropDownPage"></class>
+            <!--            <class name="org.cb.ta.WDUDataTablesButtonStatesPageTest"></class>-->
+            <!--            <class name="org.cb.ta.DropDownCheckBoxRadioBtnsPageTest"></class>-->
+            <class name="org.cb.ta.Runner.TestRunner"> </class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
